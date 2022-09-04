@@ -1,0 +1,6 @@
+/**
+ * TwoNumberSum
+ */
+public class TwoNumberSum {
+
+}
