@@ -1,6 +1,0 @@
-/**
- * TwoNumberSum
- */
-public class TwoNumberSum {
-
-}
