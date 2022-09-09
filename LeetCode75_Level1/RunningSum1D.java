@@ -1,4 +1,4 @@
-package LeetCode75;
+package LeetCode75_Level1;
 
 import java.util.Arrays;
 
