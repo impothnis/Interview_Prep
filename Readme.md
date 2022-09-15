@@ -15,3 +15,5 @@
 
 - [x] Fibonacci - Recurrsion, Memoization
 - [x] Binary Search - Iterative, Recurrsion
+- [x] ArrListRemoveDuplicates - Educative
+- [x] ArrList_GatherZeros - Educative
