@@ -18,6 +18,17 @@ public class ArrListRemoveDuplicates {
   }
 
   public static void main(String args[]) {
+    ArrayList<Integer> values = new ArrayList<Integer>();
+    values.add(3);
+    values.add(2);
+    values.add(1, 1);
+    values.get(1);
+    values.set(1, 2);
+    values.add(3);
+    values.remove(1);
+    System.out.println(values);
+
+    System.out.println("\"\\Hello World\\\"");
     ArrayList<Character> input = new ArrayList<Character>(Arrays.asList('a', 'b', 'b', 'c', 'c', 'c', 'd'));
     System.out.println("Array List before calling zerosToStart");
     for (int i = 0; i < input.size(); i++) {
