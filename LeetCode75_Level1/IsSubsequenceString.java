@@ -1,6 +1,6 @@
 package LeetCode75_Level1;
 
-public class IsSubsequence {
+public class IsSubsequenceString {
 
   public static Boolean isSubsequence(String s, String t) {
     int s_pointer = 0;
@@ -22,7 +22,7 @@ public class IsSubsequence {
 
   public static void main(String[] args) {
 
-    String s = "abc";
+    String s = "bgd";
     String t = "ahbgd";
     System.out.println(isSubsequence(s, t));
   }

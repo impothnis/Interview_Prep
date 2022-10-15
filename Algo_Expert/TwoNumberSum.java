@@ -8,6 +8,7 @@ import java.util.Set;
 /**
  * TwoNumberSum
  * Map Approach - Can be used for both finding the index and value pair
+ * // O(n) time O(n) space
  */
 public class TwoNumberSum {
   public static int[] twoNumberSumHashMap(int[] array, int targetSum) {
@@ -27,6 +28,7 @@ public class TwoNumberSum {
 
   /*
    * Hasset approach
+   * // O(n) time O(n) space
    */
   public static int[] twoNumberSumHashSet(int[] array, int targetSum) {
     Set<Integer> set = new HashSet<>();
@@ -46,6 +48,8 @@ public class TwoNumberSum {
   /*
    * Binary Search Approach. Most optimized solution. Can be used for finding pair
    * and not the index
+   * // 0(nlog(n)) | 0(1) space
+   *
    */
 
   public static int[] twoNumberSumBinarySearch(int[] array, int targetSum) {
