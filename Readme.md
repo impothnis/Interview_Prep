@@ -2,11 +2,7 @@
 
 <!-- - [ ] Placeholder - -->
 
-# Pavan's Blind
-
-# Algo Expert
-
-# Easy
+# Algo Expert # Easy
 
 # Arrays
 
@@ -16,7 +12,7 @@
 - [x] Tournament Winner - https://www.algoexpert.io/questions/tournament-winner
 - [x] Non-Constructible Change - https://www.algoexpert.io/questions/non-constructible-change
 
-# Medium
+# Algo Expert # Medium
 
 # NeetCode
 
