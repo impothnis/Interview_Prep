@@ -2,6 +2,7 @@ package Algo_Expert;
 
 import java.util.*;
 
+//// O(n) time O(1) space
 class ValidateSubsequenceArray {
   public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
 
