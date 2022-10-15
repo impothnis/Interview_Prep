@@ -10,7 +10,7 @@ import java.util.Set;
  * Map Approach - Can be used for both finding the index and value pair
  */
 public class TwoNumberSum {
-  public static int[] twoNumberSum1(int[] array, int targetSum) {
+  public static int[] twoNumberSumHashMap(int[] array, int targetSum) {
     // Write your code here.
     int[] result = new int[2];
     HashMap<Integer, Integer> map = new HashMap<>();
@@ -26,11 +26,29 @@ public class TwoNumberSum {
   }
 
   /*
+   * Hasset approach
+   */
+  public static int[] twoNumberSumHashSet(int[] array, int targetSum) {
+    Set<Integer> set = new HashSet<>();
+
+    for (int x : array) {
+      if (set.contains(targetSum - x)) {
+        return new int[] { x, targetSum - x };
+      } else {
+        set.add(x);
+      }
+    }
+
+    return new int[0];
+
+  }
+
+  /*
    * Binary Search Approach. Most optimized solution. Can be used for finding pair
    * and not the index
    */
 
-  public static int[] twoNumberSum(int[] array, int targetSum) {
+  public static int[] twoNumberSumBinarySearch(int[] array, int targetSum) {
     Arrays.sort(array);
     int left = 0;
     int right = array.length - 1;
@@ -49,29 +67,11 @@ public class TwoNumberSum {
 
   }
 
-  /*
-   * Hasset approach
-   */
-  public static int[] twoNumberSum2(int[] array, int targetSum) {
-    Set<Integer> set = new HashSet<>();
-
-    for (int x : array) {
-      if (set.contains(targetSum - x)) {
-        return new int[] { x, targetSum - x };
-      } else {
-        set.add(x);
-      }
-    }
-
-    return new int[0];
-
-  }
-
   public static void main(String[] args) {
     int arr[] = { 13, 4, 12, 3 };
-    int[] res = twoNumberSum(arr, 7);
-    int[] res1 = twoNumberSum1(arr, 7);
-    int[] res2 = twoNumberSum2(arr, 7);
+    int[] res = twoNumberSumHashMap(arr, 7);
+    int[] res1 = twoNumberSumHashSet(arr, 7);
+    int[] res2 = twoNumberSumBinarySearch(arr, 7);
     System.out.println(Arrays.toString(res));
     System.out.println(Arrays.toString(res1));
     System.out.println(Arrays.toString(res2));
