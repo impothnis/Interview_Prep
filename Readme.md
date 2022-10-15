@@ -6,8 +6,14 @@
 
 # Algo Expert
 
+# Easy
+
+# October 15 2022
+
 - [x] Two Sum - https://www.algoexpert.io/questions/two-number-sum
 - [x] ValidateSubsequence - https://www.algoexpert.io/questions/validate-subsequence
+
+# Medium
 
 # NeetCode
 
