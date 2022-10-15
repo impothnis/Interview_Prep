@@ -8,8 +8,6 @@
 
 # Easy
 
-# October 15 2022
-
 # Arrays
 
 - [x] Two Sum - https://www.algoexpert.io/questions/two-number-sum
