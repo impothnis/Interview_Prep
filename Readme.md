@@ -16,6 +16,7 @@
 
 - [x] Palindrome Check - https://www.algoexpert.io/questions/palindrome-check
 - [x] Caeser Cipher Encryptor - https://www.algoexpert.io/questions/caesar-cipher-encryptor
+- [x] Run Length Encoding - https://www.algoexpert.io/questions/run-length-encoding
 
 # Algo Expert # Medium
 
