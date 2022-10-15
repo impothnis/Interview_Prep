@@ -14,6 +14,7 @@
 - [x] ValidateSubsequence - https://www.algoexpert.io/questions/validate-subsequence
 - [x] Sorted Squared Array - https://www.algoexpert.io/questions/sorted-squared-array
 - [x] Tournament Winner - https://www.algoexpert.io/questions/tournament-winner
+- [x] Non-Constructible Change - https://www.algoexpert.io/questions/non-constructible-change
 
 # Medium
 
