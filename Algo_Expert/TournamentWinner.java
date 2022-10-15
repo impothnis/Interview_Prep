@@ -3,7 +3,6 @@ package Algo_Expert;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.concurrent.CompletableFuture;
 
 //O(n) Time and O(K) where n is number of competitions and K is number of teams
 public class TournamentWinner {
