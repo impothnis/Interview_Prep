@@ -18,6 +18,7 @@
 - [x] Caeser Cipher Encryptor - https://www.algoexpert.io/questions/caesar-cipher-encryptor
 - [x] Run Length Encoding - https://www.algoexpert.io/questions/run-length-encoding
 - [x] Generate Document - https://www.algoexpert.io/questions/generate-document
+- [x] First Non Repeating Character - https://www.algoexpert.io/questions/first-non-repeating-character
 
 # Algo Expert # Medium
 
