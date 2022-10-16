@@ -25,6 +25,10 @@
 - [x] Binary Search - https://www.algoexpert.io/questions/binary-search
 - [x] Three Largest Number - https://www.algoexpert.io/questions/find-three-largest-numbers
 
+# Sorting
+
+- [x] Bubble Sort -https://www.algoexpert.io/questions/bubble-sort
+
 # Algo Expert # Medium
 
 # NeetCode
