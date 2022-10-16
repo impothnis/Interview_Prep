@@ -23,6 +23,7 @@
 # Binary Search
 
 - [x] Binary Search - https://www.algoexpert.io/questions/binary-search
+- [x] Three Largest Number - https://www.algoexpert.io/questions/find-three-largest-numbers
 
 # Algo Expert # Medium
 
