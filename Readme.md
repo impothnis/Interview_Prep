@@ -37,3 +37,5 @@
 - [x] Binary Search - Iterative, Recurrsion
 - [x] ArrListRemoveDuplicates - Educative
 - [x] ArrList_GatherZeros - Educative
+
+# This repo is created for me to revise and recap before Interviews and keep track of my progress to avoid mindless grind
