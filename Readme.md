@@ -29,6 +29,7 @@
 
 - [x] Bubble Sort - https://www.algoexpert.io/questions/bubble-sort
 - [x] Insertion Sort - https://www.algoexpert.io/questions/insertion-sort
+- [x] Selection Sort - https://www.algoexpert.io/questions/selection-sort
 
 # Algo Expert # Medium
 
