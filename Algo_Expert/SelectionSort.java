@@ -2,28 +2,31 @@ package Algo_Expert;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class SelectionSort {
 
   // Best Case - O(n) || O(1)
   // Best Case - O(n) || O(1)
   // Average Case - O(n^2) || O(1)
   // Worst Case - O(n^2) || O(1)
-  public static int[] bubbleSort(int[] array) {
+
+  public static int[] selectionSort(int[] array) {
     if (array.length == 0) {
       return new int[] {};
     }
-    boolean isSorted = false;
-    int counter = 0;
-    while (!isSorted) {
-      isSorted = true;
-      for (int i = 0; i < array.length - 1 - counter; i++)
-        if (array[i] > array[i + 1]) {
-          swap(i, i + 1, array);
-          isSorted = false;
-        }
-      counter++;
+
+    int startIndex = 0;
+    while (startIndex < array.length - 1) {
+      int smallIndex = startIndex;
+      for (int i = smallIndex + 1; i < array.length; i++) {
+        if (array[smallIndex] > array[i])
+          smallIndex = i;
+      }
+      swap(startIndex, smallIndex, array);
+      startIndex++;
+
     }
     return array;
+
   }
 
   public static void swap(int i, int j, int[] array) {
@@ -34,7 +37,7 @@ public class BubbleSort {
 
   public static void main(String[] args) {
     int[] input = { 8, 5, 2, 9, 5, 6, 3 };
-    System.out.println(Arrays.toString(bubbleSort(input)));
+    System.out.println(Arrays.toString(selectionSort(input)));
 
   }
 
