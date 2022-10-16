@@ -31,6 +31,10 @@
 - [x] Insertion Sort - https://www.algoexpert.io/questions/insertion-sort
 - [x] Selection Sort - https://www.algoexpert.io/questions/selection-sort
 
+# LinkedList
+
+- [x] Remove Duplicates from linkedlist - https://www.algoexpert.io/questions/remove-duplicates-from-linked-list
+
 # Algo Expert # Medium
 
 # NeetCode
