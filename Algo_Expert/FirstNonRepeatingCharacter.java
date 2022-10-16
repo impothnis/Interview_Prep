@@ -2,8 +2,6 @@ package Algo_Expert;
 
 import java.util.HashMap;
 
-import javax.naming.ldap.HasControls;
-
 public class FirstNonRepeatingCharacter {
 
   public static void main(String[] args) {

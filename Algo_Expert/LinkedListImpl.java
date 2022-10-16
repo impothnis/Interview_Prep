@@ -1,7 +1,5 @@
 package Algo_Expert;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
 public class LinkedListImpl {
 
   int size;
