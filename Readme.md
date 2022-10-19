@@ -35,6 +35,11 @@
 
 - [x] Remove Duplicates from linkedlist - https://www.algoexpert.io/questions/remove-duplicates-from-linked-list
 
+# Recursion
+
+- [x] Nth Fibonnaci - https://www.algoexpert.io/questions/nth-fibonacci
+- [x] Recursion -https://www.algoexpert.io/questions/product-sum
+
 # Algo Expert # Medium
 
 # NeetCode
